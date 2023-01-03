@@ -71,7 +71,7 @@ def get_books(current_user):
     #    book_data['owner'] = book.user_id
        output.append(book_data)
  
-   return jsonify({'Books' : output})
+   return jsonify({'data' : output})
 
 
 # deleting a book
